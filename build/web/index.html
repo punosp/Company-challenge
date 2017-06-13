@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="SHORTCUT ICON" HREF="jsp-html/images/logo.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/AcmeLtd/jsp-html/css/style.css">
+  <style>
+      .container-fluid {
+      padding: 10px 50px;
+  }
+  </style>
+ 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                     
+      </button>
+      <a class="navbar-brand" href="#myPage"><img class="img-responsive" src="jsp-html/images/logo2.png" alt="LOGO"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="UserController?page=table&prepage=com">TABLE</a></li>
+        <li><a href="UserController?page=list">LIST</a></li>
+        <li><a href="UserController?page=tree">TREE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+    <h1>Welcome</h1> 
+    <hr>
+</div>
+    <div id="home">
+        
+        <br>
+<p style="text-align: left; font-family:constantia;margin-left: 100px; margin-right: 100px;">Please select one of the three views:</p>
+<br><br><br>
+    <a href="UserController?page=table&prepage=com" style="float: left;margin-left: 200px"><button type="button" class="btn btn-primary"><h2>Table View</h2></button></a><a href="UserController?page=list" style="margin-left: 240px"><button type="button" class="btn btn-primary"><h2>List View</h2></button></a><a href="UserController?page=tree" style="float: right;margin-right: 200px"><button type="button" class="btn btn-primary"><h2>Tree View</h2></button></a>
+
+    </div>
+    <br><br><br>
+    <footer class="container-fluid text-center">
+        <br>
+        <hr>
+        <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+            <p>Made By : Ashutosh Sonu</p>		
+</footer>
+
+
+
+
+</body>
+</html>
